@@ -1,0 +1,109 @@
+/*CSS reset settings here*/
+*{
+ margin: auto;
+ padding: 0px;
+}
+#wrapper{
+ width: 960px;
+ height: 900px;
+ background-color: silver;
+ padding: 34px;
+
+}
+
+#header{
+height: 100px;
+width: 960px;
+background-color: green;
+}
+
+#navigation{
+  float: left;
+ height: 600px;
+ width: 200px;
+ margin: 0px;
+ padding: 0px;
+ background-color: blue;
+ display: inline-block;
+ vertical-align: top;
+}
+
+.contents{
+  float: left;
+  margin: 0px;
+  padding: 0px;
+ display: inline-block;
+ height: 200px;
+ width: 379px;
+ background-color: red;
+}
+
+.subcontents{
+  float: left;
+ display: inline-block;
+ height: 250px;
+ width: 190px;
+ background-color: yellow;
+ display: inline-block;
+}
+
+#footer{
+  float: left;
+ height: 150px;
+ width: 760px;
+ background-color: purple;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  #wrapper{
+   width: 480px;
+   height: 1000px;
+   background-color: silver;
+   padding: 34px;
+
+  }
+
+  #header{
+  height: 75px;
+  width: 480px;
+  background-color: green;
+  }
+
+  #navigation{
+    float: left;
+   height: 125px;
+   width: 480px;
+   margin: 0px;
+   padding: 0px;
+   background-color: blue;
+   vertical-align: top;
+  }
+
+  .contents{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+   display: block;
+   height: 125px;
+   width: 480px;
+   background-color: red;
+  }
+
+  .subcontents{
+    float: left;
+   display: inline-block;
+   height: 250px;
+   width: 240px;
+   background-color: yellow;
+   display: inline-block;
+  }
+
+  #footer{
+    float: left;
+   height: 80px;
+   width: 480px;
+   background-color: purple;
+  }
+}
